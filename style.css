@@ -1007,6 +1007,19 @@ xclip
 }
 
 
+
+
+
+.right-box-pro2 p{
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+
+
+
+
 .services-inner-box{
 	padding: 15px;
 	background: #ffffff;
@@ -1409,6 +1422,44 @@ xclip
     font-size: 11px;
 }
 
+/*------------------------------------------------------------------
+    news
+-------------------------------------------------------------------*/
+/* * {margin: 0; padding: 0;} */
+ 
+/* .news { */
+  /* margin: 20px; */
+/* } */
+ 
+/* ul { */
+  /* list-style-type: none; */
+  /* width: 500px; */
+/* } */
+ 
+/* h3 { */
+  /* font: bold 20px/1.5 Helvetica, Verdana, sans-serif; */
+/* } */
+ 
+/* li img { */
+  /* float: left; */
+  /* margin: 0 5px 0 0; */
+/* } */
+ 
+/* li p { */
+  /* font: 200 12px/1.5 Georgia, Times New Roman, serif; */
+/* } */
+ 
+/* li { */
+  /* padding: 10px; */
+  /* overflow: auto; */
+/* } */
+ 
+/* li:hover { */
+  /* background: #eee; */
+  /* cursor: pointer; */
+/* } */
+
+
 
 /*------------------------------------------------------------------
     MESSAGE BOXES
@@ -1755,24 +1806,25 @@ hr.invis1 {
 
 .filter-button-group button.active{
 	background: #f9ba1f;
-	color: #fff;
+	color: #FFF;
 }
 
 .filter-button-group button{
 	color: #333;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 34px;
 	cursor: pointer;
-	background: #fff;
-	padding: 12px 40px;
+	background: #e6e6e6;
+	padding: 8px 30px;
 	border: none;
 	border-radius: 20px;
+	margin:20px;
 }
 
 .filter-button-group button:hover{
-	background: #333333;
+	background: #f9ba1f;
 	color: #ffffff;
 }
 
@@ -1982,6 +2034,14 @@ hr.invis1 {
 	display: inline-block;
 	text-align: center;
 }
+
+
+
+
+
+
+
+
 
 
 /*------------------------------------------------------------------
